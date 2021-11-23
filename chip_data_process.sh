@@ -44,7 +44,7 @@ echo "Chips: ${CHIPS[@]}"
 echo ""
 echo "Controls: ${CONTROLS[@]}"
 echo ""
-
+ 
 ##Creating working directory
 cd $WD
 mkdir $FD
