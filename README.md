@@ -1,7 +1,7 @@
 # CHIPsequeando
 
 ## What is CHIPsequeando?
-CHIPsequeando is... 
+CHIPsequeando is an automatic computational workflow specifically designed for the analysis of ChIP-seq data.
 
 ## How to install CHIPsequeando?
 1. Download the programme using:
