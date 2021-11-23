@@ -10,7 +10,7 @@ i=$2
 NUMSAM=$3
 PIPER=$4
 
-## Accessing sample folder
+## Accessing sample folder 
 cd $SAMPLEDIR
 
 ## Sample quality control and read mapping to reference genome
