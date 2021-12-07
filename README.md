@@ -8,3 +8,4 @@ CHIPsequeando is an automatic computational workflow specifically designed for t
 2. Then you have to sing up with your username and your password.(?)
 
 ## Usage
+You must specify if your samples are paired end (number_chain_end = 2) or single end (number_chain_end = 1)
