@@ -7,14 +7,34 @@
 
 SAMPLEDIR=$1
 i=$2
-NUMSAM=$3
-PIPER=$4
-
+NUMREP=$3
+FS=$4
+TYPE=$5
+PER_END=$6
 ## Accessing sample folder 
 cd $SAMPLEDIR
 
 ## Sample quality control and read mapping to reference genome
-fastqc sample_${i}.fq.gz
+if [ $TYPE -eq 1 ]
+then
+	fastqc control_${i}.fq.gz
+	gunzip control_${i}.fq.qz 
+	if [ $PER_END -eq N ]
+	then
+		bowtie2 ../../genome/index -U control_${i}.fq -S control_${i}.sam
+	elif [ $PER_END -eq Y ]
+	then
+		
+	fi
+elif [$TYPE -eq 2 ]
+then 
+	fastqc chip_${i}.fq.gx
+else
+	echo "Type of sample has no been specified properly"
+fi
+
+
+
 hisat2 --dta -x ../../genome/index -U sample_${i}.fq.gz -S sample_${i}.sam
 
 ## Generting sorted bam file

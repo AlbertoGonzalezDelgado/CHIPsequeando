@@ -1,8 +1,10 @@
 working_directory: /home/bag2021_3
 folder_name: chip_prr5_example
-genome: /home/bag2021_3/prr5/genome/chromosome1.fa
-annotation: /home/bag2021_3/prr5/annotation/chromosome1.gtf
+genome: /home/bag2021_3/prr5/genome/chromosome1.fa.gz
+annotation: /home/bag2021_3/prr5/annotation/chromosome1.gtf.gz
 scripts: /home/bag2021_3/CHIPsequeando
 number_samples: 2
+number_copy: 1
+number_chain_end: 1
 chip_1: /home/bag2021_3/prr5/samples/chip/chip_prr5_chr1.fq.gz
 control_1: /home/bag2021_3/prr5/samples/input/input_prr5_chr1.fq.gz
