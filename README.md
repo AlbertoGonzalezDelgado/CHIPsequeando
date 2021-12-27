@@ -6,11 +6,10 @@ CHIPsequeando is an automatic computational workflow specifically designed for t
 ## How to install CHIPsequeando?
 Download the code from Github to the folder you want. For example: 
 
->
-cd
-mkdir ChIPseq
-cd ChIPseq
-git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/ 
+> cd
+> mkdir ChIPseq
+> cd ChIPseq
+> git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/ 
 
 ## Usage
 On the param_input there is a file where it is neccesary to write this parameters:
