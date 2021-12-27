@@ -28,6 +28,6 @@ On the folder: param_input you can  find the file where it is neccesary to write
 * *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz* 
 * *Chip_2: home/biohacker/experiment/samples//chip/chip_2.fq.gz*
 10. **Control_x:** his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
-* *Control_1: home/biohacker/experiment/samples//chip/control_1.fq.gz* 
-* *Control_1: home/biohacker/experiment/samples//chip/control_2.fq.gz*
+* *Control_1: home/biohacker/experiment/samples//control/control_1.fq.gz* 
+* *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
 
