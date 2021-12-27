@@ -22,7 +22,9 @@ On the folder: param_input there is a file where it is neccesary to write this p
 5. Scripts:This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: *home/ChIPseq/CHIPsequeando* 
 6. Number of samples: This parameter specifies the number of samples 
 7. Number of copies: This parameter specifies the number of copies per each sample
-8. Chip_x: This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example: * *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz  *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz *
+8. Chip_x: This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example: * 
+* Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz  
+* Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz *
 10. Control_home/biohacker/experiment/annotation/annotation.fq.gz:
 11.     
 You must specify if your samples are paired end (number_chain_end = 2) or single end (number_chain_end = 1)
