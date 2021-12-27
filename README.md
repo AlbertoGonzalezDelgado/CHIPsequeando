@@ -6,7 +6,7 @@ CHIPsequeando is an automatic computational workflow specifically designed for t
 ## How to install CHIPsequeando?
 Download the code from Github to the folder you want. For example: 
 
-$ cd
+> cd
 mkdir ChIPseq
 cd ChIPseq
 git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/ 
