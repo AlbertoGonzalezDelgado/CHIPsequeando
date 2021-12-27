@@ -21,10 +21,13 @@ On the folder: param_input there is a file where it is neccesary to write this p
 4. Annotation: This parameter specifies the directory that contains the genome annotation that will be used in the ChIP-seq data analysis.For example: *home/biohacker/experiment/annotation/annotation.fq.gz*  
 5. Scripts:This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: *home/ChIPseq/CHIPsequeando* 
 6. Number of samples: This parameter specifies the number of samples 
-7. Number of copies: This parameter specifies the number of copies per each sample
-8. Chip_x: This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example: * 
-* Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz  
-* Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz *
-10. Control_home/biohacker/experiment/annotation/annotation.fq.gz:
+7. Number of copies: This parameter specifies the number of copies per each sample.
+8. Number of chain end: This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample). 
+9. Chip_x: This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example:
+* *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz* 
+* *Chip_2: home/biohacker/experiment/samples//chip/chip_2.fq.gz*
+10. Control_x: his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
+* *Control_1: home/biohacker/experiment/samples//chip/control_1.fq.gz* 
+* *Control_1: home/biohacker/experiment/samples//chip/control_2.fq.gz*
 11.     
 You must specify if your samples are paired end (number_chain_end = 2) or single end (number_chain_end = 1)
