@@ -14,7 +14,8 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 ```
 
 ## Usage
-On the folder: param_input there is a file where it is neccesary to write this parameters:
+To process ChIP-Seq data run the executable **NOMBRE DEL PRIMER SCRIPT** with param_input.txt as input
+On the folder: param_input you can  find the file where it is neccesary to write this parameters *param_input.txt*:
 1. **Working directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: *home/biohacker/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *home/biohacker/work* 
 3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. For example: *home/biohacker/experiment/genome/genome.fq.gz* 
