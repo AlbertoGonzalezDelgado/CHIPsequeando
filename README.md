@@ -14,7 +14,7 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 ```
 
 ## Usage
-To process ChIP-Seq data run the executable **NOMBRE DEL PRIMER SCRIPT** with param_input.txt as input
+To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as input
 On the folder: param_input you can  find the file where it is neccesary to write this parameters *param_input.txt*:
 1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: *home/biohacker/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *work* 
@@ -33,7 +33,7 @@ On the folder: param_input you can  find the file where it is neccesary to write
 
 (Hay que explicar como seria paired end, en el sentido de que seria chip_1 y chip_2 la muestra 1, chip_3 y chip_4 la muestra 2, etc)
 
-Once all parameters have been specified, the next step is to run the scripts. 
+Once all parameters have been specified, the next step is to run the scripts. For example: 
 
 ```
 /home/user/CHIPsequeando/chip_data_process.sh /home/user/CHIPsequeando/param_input/param_file_prr5.txt
