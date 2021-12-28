@@ -23,15 +23,13 @@ On the folder: param_input you can  find the file where it is neccesary to write
 5. **scripts:** This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: *home/ChIPseq/CHIPsequeando* 
 6. **number_samples:** This parameter specifies the number of samples 
 7. **number_copy:** This parameter specifies the number of copies per each sample.
-8. **number_chain_end:** This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample). 
+8. **number_chain_end:** This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample; for example *control1_1.fq.gz* and *control1_2.fq.gz*). 
 9. **chip_x:** This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example:
 * *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz* 
 * *Chip_2: home/biohacker/experiment/samples//chip/chip_2.fq.gz*
 10. **control_x:** his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
 * *Control_1: home/biohacker/experiment/samples//control/control_1.fq.gz* 
 * *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
-
-(Hay que explicar como seria paired end, en el sentido de que seria chip_1 y chip_2 la muestra 1, chip_3 y chip_4 la muestra 2, etc)
 
 Once all parameters have been specified, the next step is to run the scripts. For example: 
 
