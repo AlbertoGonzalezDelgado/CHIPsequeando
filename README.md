@@ -46,6 +46,6 @@ When ChIPsequeando pipeline is run, the next folders are created in the output d
 3. **logs:** containing the intermediary and final reports written in *.txt* files. There will be one more files than copies in the experiment. 
 4. **results:** containing:
    * *blackboard* file, where each sample processed is noted down.
-   * *finishing.txt* file, showing the analysis has been completed.
+   * *finishing.txt* file, showing the analysis has been completed succesfully.
    * *peaks* files, required by the R script for determining the target genes.
-5. **samples:** containing for each copy a *chip* and a *control* folder. Everyone contains the bowtie2 results in *.bam* and *.bam.bai*, the quality analysis results in *.html* and in *.zip* formats, and the sample input in *fq.gz* format
+5. **samples:** containing for each copy a *chip* and a *control* folder. Everyone contains the bowtie2 results in *.bam* and *.bam.bai*, the quality analysis results (made by *fastqc* in *.html* and in *.zip* formats, and the sample input in *fq.gz* format
