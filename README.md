@@ -5,7 +5,7 @@ CHIPsequeando is a computational pipeline designed for the automatic analysis of
 
 ## How to install CHIPsequeando?
 CHIPsequeando requires the following dependencies that should be installed previously:
-[FastQC] (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* [FastQC] (https://bioinformatics.babraham.ac.uk/projects/fastqc/)
 
 Download the code from Github to the folder you want. For example: 
 
