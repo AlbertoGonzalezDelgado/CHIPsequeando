@@ -11,7 +11,6 @@ CHIPsequeando requires the following dependencies that should be installed previ
 * [R](https://www.r-project.org/)
 
 Download the code from Github to the folder you want. For example: 
-
 ```
 cd
 mkdir ChIPseq
