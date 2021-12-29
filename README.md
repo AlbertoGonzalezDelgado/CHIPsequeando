@@ -31,6 +31,8 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 * *Control_1: home/biohacker/experiment/samples//control/control_1.fq.gz* 
 * *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
 
+There is given a param_input example that could be helpful **param_file_prr5.txt"
+
 Once all parameters have been specified, the next step is to run the scripts. For example: 
 
 ```
@@ -41,7 +43,7 @@ Once all parameters have been specified, the next step is to run the scripts. Fo
 When CHIPsequeando pipeline is run, the next folders are created in the output directory (specified by the *working_directory* and the *folder_name* parameters): 
 1. **annotation:** containing the *annotation.gtf* file.
 2. **genome:** containing the *genome.fa* file and the genome index. 
-3. **logs:** containing the intermediary and final reports written in *.txt* files. There will be one more files than copies in the experiment. 
+3. **logs:** containing the intermediary and final reports written in *.out* files. There will be one more files than copies in the experiment. 
 4. **results:** containing:
    * *blackboard* file, where each sample processed is noted down.
    * *finishing.txt* file, showing the analysis has been completed succesfully.
