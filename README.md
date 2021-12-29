@@ -13,7 +13,7 @@ cd ChIPseq
 git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/ 
 ```
 
-## Usage
+## How to use CHIPsequeando
 To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as unique input.
 On the folder: param_input you can  find the file *param_input.txt* where it is neccesary to write this parameters:
 1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: *home/biohacker/* 
@@ -32,6 +32,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 * *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
 
 There is given a param_input example that could be helpful **param_example_file_prr5.txt"
+[param__example_input](param_example_file_prr5.txt)
 
 Once all parameters have been specified, the next step is to run the scripts. For example: 
 
