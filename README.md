@@ -32,7 +32,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 * *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
 
 There is given a param_input example that could be helpful
-[param__example_input](param_example_file_prr5.txt)
+[param__example_input](param_input/param_example_file_prr5.txt)
 
 Once all parameters have been specified, the next step is to run the scripts. For example: 
 
