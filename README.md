@@ -1,7 +1,7 @@
 # CHIPsequeando
 
 ## What is CHIPsequeando?
-CHIPsequeando is a computational pipeline designed for the automatic analysis of ChIP-seq data. From raw *fastaq* files, CHIPsequeando will provide a list of target genes.
+CHIPsequeando is a computational pipeline designed for the automatic analysis of ChIP-seq data. From raw *fastaq* files, CHIPsequeando will provide a list of target genes that could be regulated by the transcription factor.
 
 ## How to install CHIPsequeando?
 Download the code from Github to the folder you want. For example: 
@@ -15,7 +15,7 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 
 ## Usage
 To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as unique input.
-On the folder: param_input you can  find the file where it is neccesary to write this parameters *param_input.txt*:
+On the folder: param_input you can  find the file *param_input.txt* where it is neccesary to write this parameters:
 1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: *home/biohacker/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *work* 
 3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. For example: *home/biohacker/experiment/genome/genome.fq.gz* 
