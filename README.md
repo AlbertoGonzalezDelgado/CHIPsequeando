@@ -21,20 +21,20 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 ## How to use CHIPsequeando
 To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as unique input.
 On the folder: param_input you can  find the file *param_input.txt* where it is neccesary to write this parameters:
-1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: *home/biohacker/* 
+1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: */home/user/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *work* 
-3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. For example: *home/biohacker/experiment/genome/genome.fq.gz* 
-4. **annotation:** This parameter specifies the directory that contains the genome annotation that will be used in the ChIP-seq data analysis.For example: *home/biohacker/experiment/annotation/annotation.fq.gz*  
-5. **scripts:** This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: *home/ChIPseq/CHIPsequeando* 
+3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. For example: */home/user/experiment/genome/genome.fq.gz* 
+4. **annotation:** This parameter specifies the directory that contains the genome annotation that will be used in the ChIP-seq data analysis.For example: */home/user/experiment/annotation/annotation.fq.gz*  
+5. **scripts:** This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: */home/user/ChIPseq/CHIPsequeando* 
 6. **number_samples:** This parameter specifies the number of samples 
 7. **number_copy:** This parameter specifies the number of copies per each sample.
 8. **number_chain_end:** This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample; for example *control1_1.fq.gz* and *control1_2.fq.gz*). 
 9. **chip_x:** This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example:
-* *Chip_1: home/biohacker/experiment/samples//chip/chip_1.fq.gz* 
-* *Chip_2: home/biohacker/experiment/samples//chip/chip_2.fq.gz*
+* *Chip_1: /home/user/experiment/samples/chip/chip_1.fq.gz* 
+* *Chip_2: /home/user/experiment/samples/chip/chip_2.fq.gz*
 10. **control_x:** his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
-* *Control_1: home/biohacker/experiment/samples//control/control_1.fq.gz* 
-* *Control_1: home/biohacker/experiment/samples//control/control_2.fq.gz*
+* *Control_1: /home/user/experiment/samples//control/control_1.fq.gz* 
+* *Control_1: /home/user/experiment/samples//control/control_2.fq.gz*
 
 There is given a param_input example that could be helpful
 [param__example_input](param_input/param_example_file_prr5.txt)
