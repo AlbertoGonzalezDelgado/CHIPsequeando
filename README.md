@@ -51,9 +51,10 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 * *Control_1: /home/user/experiment/samples//control/control_1.fq.gz* 
 * *Control_1: /home/user/experiment/samples//control/control_2.fq.gz*
 
-There is given a param_input example that could be helpful
+There is given a param input file example that could be helpful
 [param__example_input](param_input/param_example_file_prr5.txt).
 
+The following zip contain some files that can be used as input files to check CHIPsequeando:[param_test_input.zip](input_files.zip/).
 
 **Warning!** It is neccesary to write a space bar after each ":" 
 
