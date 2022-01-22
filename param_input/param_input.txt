@@ -1,0 +1,15 @@
+working_directory: 
+folder_name: 
+genome: 
+annotation: 
+scripts: 
+number_samples: 
+number_copy: 
+number_chain_end: 
+upstream_bp: 
+dowstream_bp: 
+word_length: 
+region_size: 
+p_value: 
+chip_x: 
+control_x: 
