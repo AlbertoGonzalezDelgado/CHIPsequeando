@@ -17,7 +17,7 @@ CHIPsequeando requires the following dependencies that should be installed previ
   * [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
   * [org.At.tair.db](https://bioconductor.org/packages/release/data/annotation/html/org.At.tair.db.html)
 
-Download the code from Github into the folder you want. For example: 
+Download the code from Github into the folder desired. For example: 
 ```
 cd
 mkdir ChIPseq
