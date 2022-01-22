@@ -40,7 +40,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 7. **number_copy:** This parameter specifies the number of copies per each sample.
 8. **number_chain_end:** This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample; for example *control1_1.fq.gz* and *control1_2.fq.gz*). 
 9. **upstream_bp:** This parameter specifies the 5' region from TSS that will be used to annotate peaks and to get promoters. For example: *1000*.
-10.**downstream_bp:** This parameter specifies the 3' region from TSS that will be used to annotate peaks and to get promoters. For example: *1000*.
+10. **downstream_bp:** This parameter specifies the 3' region from TSS that will be used to annotate peaks and to get promoters. For example: *1000*.
 11. **word_length:** This parameter specifies the length os the secuence that will be used to search DNA motifs inside the peaks annotated. It can be used several numbers separated by "," for searching for words using diferent lengths. For example: *4* or *6,8*.
 12. **region_size:** This parameter specifies the width of DNA region around TSS that will be used to search for DNA motifs. For example: *200*
 13. **p_value:** This parameter specifies the p-value used in Gene Ontology  
