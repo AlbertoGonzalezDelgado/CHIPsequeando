@@ -14,6 +14,8 @@ CHIPsequeando requires the following dependencies that should be installed previ
 * [R](https://www.r-project.org/)
   * [ChIPseeker](https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
   * [TxDb.Athaliana.BioMart.plantsmart28](https://bioconductor.org/packages/release/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart28.html)
+  * [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
+  * [org.At.tair.db](https://bioconductor.org/packages/release/data/annotation/html/org.At.tair.db.html)
 
 Download the code from Github to the folder you want. For example: 
 ```
@@ -24,20 +26,28 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 ```
 
 ## How to use CHIPsequeando
+```
+chip_data_process.sh <param_input>
+```
 To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as unique input.
 On the folder: param_input you can  find the file *param_input.txt* where it is neccesary to write this parameters:
-1. **working_directory:** This parameter specifies the directory where the output folder containing the results of the ChIP-seq data analysis will be generated. For example: */home/user/* 
+1. **working_directory:** This parameter specifies the directory where the output folder containing the results will be generated. For example: */home/user/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *work* 
-3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. For example: */home/user/experiment/genome/genome.fq.gz* 
-4. **annotation:** This parameter specifies the directory that contains the genome annotation that will be used in the ChIP-seq data analysis.For example: */home/user/experiment/annotation/annotation.fq.gz*  
+3. **genome:** This parameter specifies the directory that contains the genome file that will be used in the ChIP-seq data analysis. This file has to be previously downloaded. For example: */home/user/experiment/genome/genome.fq.gz* 
+4. **annotation:** This parameter specifies the directory that contains the genome annotation that will be used in the ChIP-seq data analysis. This file has to be previously downloaded. For example: */home/user/experiment/annotation/annotation.fq.gz*  
 5. **scripts:** This parameter specifies the directory that contains the scripts of CHIPsequeando. For example: */home/user/ChIPseq/CHIPsequeando* 
 6. **number_samples:** This parameter specifies the number of samples 
 7. **number_copy:** This parameter specifies the number of copies per each sample.
 8. **number_chain_end:** This parameter can take the values **1** when your data is **single-end** or **2** when your data is **paired-end** (two .fastq file per sample; for example *control1_1.fq.gz* and *control1_2.fq.gz*). 
-9. **chip_x:** This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example:
+9. **upstream_bp:** This parameter specifies the 5' region from TSS that will be used to annotate peaks and to get promoters. For example: *1000*.
+10.**downstream_bp:** This parameter specifies the 3' region from TSS that will be used to annotate peaks and to get promoters. For example: *1000*.
+11. **word_length:** This parameter specifies the length os the secuence that will be used to search DNA motifs inside the peaks annotated. It can be used several numbers separated by "," for searching for words using diferent lengths. For example: *4* or *6,8*.
+12. **region_size:** This parameter specifies the width of DNA region around TSS that will be used to search for DNA motifs. For example: *200*
+13. **p_value:** This parameter specifies the p-value used in Gene Ontology  
+14. **chip_x:** This parameter specifies the directory that contains the chips samples. It is neccesary to specified as chips_x as chips samples have to be analysed. For example:
 * *Chip_1: /home/user/experiment/samples/chip/chip_1.fq.gz* 
 * *Chip_2: /home/user/experiment/samples/chip/chip_2.fq.gz*
-10. **control_x:** his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
+15. **control_x:** his parameter specifies the directory that contains the control or input samples. It is neccesary to specified as controls_x as chips samples have to be analysed. For example:
 * *Control_1: /home/user/experiment/samples//control/control_1.fq.gz* 
 * *Control_1: /home/user/experiment/samples//control/control_2.fq.gz*
 
