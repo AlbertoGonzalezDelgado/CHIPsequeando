@@ -29,7 +29,7 @@ git clone ttps://github.com/AlbertoGonzalezDelgado/CHIPsequeando/
 ```
 chip_data_process.sh <param_input>
 ```
-To process ChIP-Seq data run the executable **chip_data_process.sh** with param_input.txt as unique input.
+To process ChIP-Seq data run the executable **chip_data_process.sh** with [param_input](param_input/param_input.txt) as unique input.
 On the folder: param_input you can  find the file *param_input.txt* where it is neccesary to write this parameters:
 1. **working_directory:** This parameter specifies the directory where the output folder containing the results will be generated. For example: */home/user/* 
 2. **folder_name:** This parameter specifies the name of the output folder. For example: *work* 
