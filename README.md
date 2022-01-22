@@ -74,3 +74,5 @@ When CHIPsequeando pipeline is running, the next folders will be created in the 
    * *finishing.txt* file, showing the analysis has been completed succesfully.
    * *peaks* files, required by the R script for determining the target genes.
 5. **samples:** containing for each copy a *chip* and a *control* folder. Everyone contains the bowtie2 results in *.bam* and *.bam.bai*, the quality analysis results (made by *fastqc*) in *.html* and in *.zip* formats, and the sample input in *fq.gz* format.
+
+It is given an example of the results generated in an analysis that could be helpful [results_folder](results/).
