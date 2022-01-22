@@ -56,8 +56,6 @@ There is given a param input file example that could be helpful
 
 **Warning!** It is neccesary to write a space bar after each ":" 
 
-The following zip contain some files that can be used as input files to check CHIPsequeando: [param_test_input.zip](input_files.zip/).
-
 ## Running CHIPsequeando
 Once all parameters have been specified, the next step is to run the scripts. For example: 
 
