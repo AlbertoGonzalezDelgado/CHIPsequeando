@@ -7,8 +7,13 @@ CHIPsequeando is a computational pipeline designed for the automatic analysis of
 CHIPsequeando requires the following dependencies that should be installed previously:
 * [FastQC](https://bioinformatics.babraham.ac.uk/projects/fastqc/)
 * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+* [Samtools](http://www.htslib.org/)
 * [MACS2](https://pypi.org/project/MACS2/)
+* [Slurm](https://slurm.schedmd.com/documentation.html)
+* [HOMER](http://homer.ucsd.edu/homer/introduction/install.html)
 * [R](https://www.r-project.org/)
+  * [ChIPseeker](https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
+  * [TxDb.Athaliana.BioMart.plantsmart28](https://bioconductor.org/packages/release/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart28.html)
 
 Download the code from Github to the folder you want. For example: 
 ```
