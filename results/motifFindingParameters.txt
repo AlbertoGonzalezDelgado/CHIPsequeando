@@ -1,0 +1,1 @@
+cmd = prr5_summits.bed tair10 . -size 50 -len 6,8
