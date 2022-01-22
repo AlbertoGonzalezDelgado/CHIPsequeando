@@ -54,7 +54,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 There is given a param input file example that could be helpful
 [param__example_input](param_input/param_example_file_prr5.txt).
 
-The following zip contain some files that can be used as input files to check CHIPsequeando:[param_test_input.zip](input_files.zip/).
+The following zip contain some files that can be used as input files to check CHIPsequeando: [param_test_input.zip](input_files.zip/).
 
 **Warning!** It is neccesary to write a space bar after each ":" 
 
