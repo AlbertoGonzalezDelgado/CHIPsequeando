@@ -150,6 +150,7 @@ then
 		cd ../chip_$j
 		cp ${CHIPS[$i]} chip_${j}_1.fq.gz
 		cp ${CHIPS[$j]} chip_${j}_2.fq.gz
+		cd ..
 		((i++))
 		((i++))
   	done
@@ -163,7 +164,7 @@ else
 	echo ""
 	exit
 fi
-cd ../..
+cd ..
 
 
 ##Sample processing

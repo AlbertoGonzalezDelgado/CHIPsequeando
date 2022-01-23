@@ -28,9 +28,27 @@ promoter <- getPromoters(TxDb=txdb, upstream=UPSTREAM, downstream=DOWNSTREAM)
 ## Peaks annotation
 peakAnno <- annotatePeak(peak = peaks, tssRegion=c(-UPSTREAM, DOWNSTREAM), TxDb=txdb)
 
-# In order to visualize the plots, copy the next lines in Rstudio and execute:
-plotAnnoPie(peakAnno)
-plotDistToTSS(peakAnno, title="Distribution of genomic loci relative to TSS", ylab = "Genomic Loci (%) (5' -> 3')")
+## Peaks annotation for plots
+if (TYPE==1)
+{
+  peakAnno1 <- annotatePeak(peak = peaks, tssRegion=c(-UPSTREAM, DOWNSTREAM), TxDb=txdb)
+}
+if (TYPE==2)
+{
+  peakAnno2 <- annotatePeak(peak = peaks, tssRegion=c(-UPSTREAM, DOWNSTREAM), TxDb=txdb)
+}
+
+## Visualizing plots
+if (TYPE==1)
+{
+  plotAnnoPie(peakAnno1)
+  plotDistToTSS(peakAnno1, title="Distribution of genomic loci relative to TSS (summitsbed)", ylab = "Genomic Loci (%) (5' -> 3')")
+}
+if (TYPE==2)
+{
+  plotAnnoPie(peakAnno2)
+  plotDistToTSS(peakAnno2, title="Distribution of genomic loci relative to TSS (narrowPeak)", ylab = "Genomic Loci (%) (5' -> 3')")
+}
 
 ## Constructing data frame
 annotation <- as.data.frame(peakAnno)
