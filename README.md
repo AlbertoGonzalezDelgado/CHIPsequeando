@@ -71,12 +71,12 @@ When CHIPsequeando pipeline is running, the next folders will be created in the 
 4. **results:** containing:
    * *blackboard* file, where each sample processed is noted down.
    * *finishing.txt* file, showing the analysis has been completed succesfully.
-   * *GO_terms.csv* files, containig the enriched GO terms obtained from peaks.
-   * *motifs* folders, with DNA motifs around TSS.
-   * *peaks* files, required by the R script for determining the target genes.
-   * *promoters.csv* files, showing the promoters found around TSS.
-   * *Rplots.pdf*, consisting in two graphics representing distribution of peaks in genome and distribution of genomic loci relative to TSS.
-   * *target_genes.txt*, two files with a list of target genes of the TF studied.
+   * *GO_terms.csv* files, containig the enriched GO terms, one unsing *peaks.narrowPeak* and one using *peaks.bed*.
+   * *motifs* folders, with DNA motifs around TSS, one unsing *peaks.narrowPeak* and one using *peaks.bed*.
+   * *peaks* files, required by the R script for determining the target genes. Those include *peaks.narrowPeak* and *peaks.bed*.
+   * *promoters.csv* files, showing the promoters found around TSS, one unsing *peaks.narrowPeak* and one using *peaks.bed*.
+   * *Rplots.pdf*, one unsing *peaks.narrowPeak* and one using *peaks.bed*. Each one consists of two graphics representing distribution of peaks in genome and distribution of genomic loci relative to TSS.
+   * *target_genes.txt*, two files with a list of the TF target genes, one unsing *peaks.narrowPeak* and one using *peaks.bed*.
 5. **samples:** containing for each copy a *chip* and a *control* folder. Everyone contains the bowtie2 results in *.bam* and *.bam.bai*, the quality analysis results (made by *fastqc*) in *.html* and in *.zip* formats, and the sample input in *fq.gz* format.
 
 It is given an example of the results generated in an analysis that could be helpful [results_folder](results/).
