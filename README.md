@@ -52,7 +52,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 * *Control_1: /home/user/experiment/samples//control/control_2.fq.gz*
 
 There is given a param input file example that could be helpful
-[param__example_input](param_input/param_example_file_prr5.txt).
+[param_example_input](param_input/param_example_file_prr5.txt).
 
 **Warning!** It is neccesary to write a space bar after each ":" in the param input file.
 
