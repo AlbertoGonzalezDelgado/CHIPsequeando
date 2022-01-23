@@ -1,7 +1,7 @@
 # CHIPsequeando
 
 ## What is CHIPsequeando?
-CHIPsequeando is a computational pipeline designed for the automatic analysis of ChIP-seq data. From raw *fastaq* files, CHIPsequeando will provide a list of target genes that could be regulated by the transcription factor.
+CHIPsequeando is a computational pipeline designed for the automatic analysis of ChIP-seq data from *Arabidopsis thaliana*. From raw fastaq files, CHIPsequeando will provide a **list of target genes** that could be regulated by the transcription factor, **GO terms** results providing the functions regulated and **DNA motifs in TSS region** where the transcription factor is bound.
 
 ## How to install CHIPsequeando?
 CHIPsequeando requires the following dependencies that should be installed previously:
