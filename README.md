@@ -54,7 +54,7 @@ On the folder: param_input you can  find the file *param_input.txt* where it is 
 There is given a param input file example that could be helpful
 [param__example_input](param_input/param_example_file_prr5.txt).
 
-**Warning!** It is neccesary to write a space bar after each ":" 
+**Warning!** It is neccesary to write a space bar after each ":" in the param input file.
 
 ## Running CHIPsequeando
 Once all parameters have been specified, the next step is to run the scripts. For example: 
