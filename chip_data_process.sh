@@ -135,6 +135,7 @@ then
 		cd ../chip_$j
 		cp ${CHIPS[$i]} chip_${j}.fq.gz
 		((i++))
+		cd ..
 	done
 elif [ $PAIREND -eq $PE ]
 then
